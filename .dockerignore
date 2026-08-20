@@ -1,0 +1,45 @@
+# Version Control & OS Junk
+.git
+.gitignore
+.DS_Store
+Thumbs.db
+
+# Environment & Secrets (Crucial)
+.env
+.env.*
+*.pem
+*.key
+
+# Python / Flask (Backend)
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Node / React (Frontend)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker / Documentation
+Dockerfile*
+docker-compose*.yml
+README.md
